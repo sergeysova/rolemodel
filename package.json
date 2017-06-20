@@ -1,0 +1,41 @@
+{
+  "name": "rolemodel",
+  "version": "0.0.0",
+  "description": "Easily juggle roles in your project",
+  "license": "MIT",
+  "repository": "lestad/rolemodel",
+  "main": "src/rolemodel",
+  "author": {
+    "name": "Sergey Sova",
+    "email": "i.am@lestad.net",
+    "url": "lestad.top"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "eslint src && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "flat": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.11.12",
+    "eslint": "^3.19.0",
+    "eslint-config-atomix-base": "^2.0.0",
+    "nyc": "^10.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
