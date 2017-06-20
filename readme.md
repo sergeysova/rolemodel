@@ -1,4 +1,4 @@
-# rolemodel [![Build Status](https://travis-ci.org/lestad/rolemodel.svg?branch=master)](https://travis-ci.org/lestad/rolemodel) [![Coverage Status](https://coveralls.io/repos/github/lestad/rolemodel/badge.svg?branch=master)](https://coveralls.io/github/lestad/rolemodel?branch=master)
+# rolemodel [![Build Status](https://travis-ci.org/LestaD/rolemodel.svg?branch=master)](https://travis-ci.org/LestaD/rolemodel) [![Coverage Status](https://coveralls.io/repos/github/LestaD/rolemodel/badge.svg?branch=master)](https://coveralls.io/github/LestaD/rolemodel?branch=master)
 
 > Easily juggle roles in your project
 
@@ -198,4 +198,4 @@ Child.has('FFFFFFF') // false
 
 ## License
 
-MIT © [Sergey Sova](https://lestad.top)
+MIT © [Sergey Sova](https://LestaD.top)
